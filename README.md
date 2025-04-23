@@ -1,21 +1,65 @@
-## flutter_catalog
+# 30 Days of Flutter
 
-A new Flutter project. 
+A comprehensive Flutter learning journey project following a 30-day curriculum. This project is designed to help developers learn Flutter through practical, hands-on experience.
 
-# Content of DAY 1 ([Tutorial](https://www.youtube.com/playlist?list=PLrjrqTcKCnhTXI2GyPkaQF47inLp6LoIC))
+## Project Overview
 
+This repository contains the source code and documentation for a 30-day Flutter learning journey. Each day focuses on specific Flutter concepts, widgets, and best practices, helping you build a strong foundation in Flutter development.
+
+## Learning Journey
+
+### Day 1: Getting Started ([Tutorial](https://www.youtube.com/playlist?list=PLrjrqTcKCnhTXI2GyPkaQF47inLp6LoIC))
 - Flutter Installation
-- First App
+- First App Creation
+- Basic Project Structure
+
+_More days will be added as the journey progresses..._
+
+## Prerequisites
+
+- Flutter SDK
+- Android Studio/VS Code
+- Git
+- Basic understanding of Dart programming language
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd 30DaysOfFlutter
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
 
+3. **Run the app**
+   ```bash
+   flutter run
+   ```
+
+## Project Structure
+
+```
+├── android/            # Android specific files
+├── ios/               # iOS specific files
+├── lib/               # Main Flutter source code
+├── test/              # Test files
+└── pubspec.yaml       # Project dependencies
+```
+
+## Resources
+
+- [Flutter Official Documentation](https://flutter.dev/docs)
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contributing
+
+Feel free to submit issues and enhancement requests.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
